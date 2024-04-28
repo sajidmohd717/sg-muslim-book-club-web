@@ -28,7 +28,8 @@ body {
 /* Header */
 
 header {
-    background-color: #FFC5A5;
+    /* background-color: #FFC5A5; */
+    background: linear-gradient(90deg, rgb(143, 97, 28), rgb(212, 174, 50))
 }
 
 header h1 {
@@ -38,16 +39,20 @@ header h1 {
     color: white;
     -webkit-text-stroke: 1px grey;
     font-family: "Salsa", cursive;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
 
 /* Main Body */
 
 main p {
-    padding: 0px 30px;
+    padding: 10px 0;
     font-size: 1.2em;
     font-weight: 300;
     text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
     text-align: center;
+    border-bottom: 2px solid rgba(0,0,0, 0.2);
+    max-width: 85%;
+    margin: 10px auto 20px;
 }
 
 .books-grid {
@@ -113,14 +118,16 @@ main p {
     letter-spacing: 0.1em;
     font-size: 1em;
     font-weight: 700;
+    margin-top: 5px;
 }
 
 .details .author {
     color: #555;
+    margin-top: 10px;
 }
 
 .availability {
-    font-size: 1em;
+    /* font-size: 1em;
     background-color: #7ec69b;
     width: 70px;
     color: white;
@@ -129,7 +136,15 @@ main p {
     text-align: center;
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    right: 10px; */
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px; 
+    background-color: #85df52;
+    box-shadow: 2px 2px 5px rgb(28, 99, 25)
 }
 
 
